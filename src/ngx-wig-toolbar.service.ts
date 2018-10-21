@@ -13,12 +13,12 @@ export type TButtonLibrary = {
 export class NgxWigToolbarService {
 
   private _buttonLibrary: TButtonLibrary = {
-    list1: {title: 'Unordered List', command: 'insertunorderedlist', styleClass: 'list-ul'},
-    list2: {title: 'Ordered List', command: 'insertorderedlist', styleClass: 'list-ol'},
-    bold: {title: 'Bold', command: 'bold', styleClass: 'bold'},
-    italic: {title: 'Italic', command: 'italic', styleClass: 'italic'},
-    link: {title: 'Link', command: 'createlink', styleClass: 'link'},
-    underline: {title: 'Underline', command: 'underline', styleClass: 'format-underlined' }
+    list1: {title: 'Маркированный Список', command: 'insertunorderedlist', styleClass: 'list-ul'},
+    list2: {title: 'Нумерованный Список', command: 'insertorderedlist', styleClass: 'list-ol'},
+    bold: {title: 'Жирный', command: 'bold', styleClass: 'bold'},
+    italic: {title: 'Курсив', command: 'italic', styleClass: 'italic'},
+    link: {title: 'Ссылка', command: 'createlink', styleClass: 'link'},
+    underline: {title: 'Подчеркнутый', command: 'underline', styleClass: 'format-underlined' }
   };
 
   private _defaultButtonsList = ['list1', 'list2', 'bold', 'italic', 'link'];
